@@ -10899,3 +10899,7 @@ a.text-dark:focus {
   }
 }
 
+.v-toolbar__content {
+  min-height: 100% !important;
+}
+
