@@ -26,6 +26,6 @@
     "dependencies": {
         "laravel-mix-alias": "^1.0.2",
         "vue-router": "^3.4.7",
-        "vuetify": "^2.3.13"
+        "vuetify": "^2.3.14"
     }
 }
