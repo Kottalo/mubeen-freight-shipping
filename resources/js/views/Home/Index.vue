@@ -42,28 +42,28 @@
             </v-row>
           </v-col>
 
-            <v-col cols="5">
-              <v-row>
-                <v-col cols="6">
-                  <v-btn text large class="text-h4 font-weight-black mx-auto">FIND QUOTE</v-btn>
-                </v-col>
-                <v-col cols="6">
-                  <v-btn text large class="text-h4 font-weight-black mx-auto">OUT SERVICES</v-btn>
-                </v-col>
-              </v-row>
-            </v-col>
+          <v-col cols="5">
+            <v-row>
+              <v-col cols="6">
+                <v-btn text large class="text-h4 font-weight-black mx-auto">FIND QUOTE</v-btn>
+              </v-col>
+              <v-col cols="6">
+                <v-btn text large class="text-h4 font-weight-black mx-auto">OUT SERVICES</v-btn>
+              </v-col>
+            </v-row>
+          </v-col>
 
-            <v-col cols="3">
-              <v-row justify="end">
-                <v-btn fab x-large class="mx-2">
-                  <v-icon>mdi-map-marker</v-icon>
-                </v-btn>
-                <v-btn fab x-large class="mx-2">
-                  <v-icon>mdi-magnify</v-icon>
-                </v-btn>
-                <SignIn class="mx-2"></SignIn>
-              </v-row>
-            </v-col>
+          <v-col cols="3">
+            <v-row justify="end">
+              <v-btn fab x-large class="mx-2">
+                <v-icon>mdi-map-marker</v-icon>
+              </v-btn>
+              <v-btn fab x-large class="mx-2">
+                <v-icon>mdi-magnify</v-icon>
+              </v-btn>
+              <SignIn class="mx-2"></SignIn>
+            </v-row>
+          </v-col>
         </v-container>
       </div>
 
@@ -74,7 +74,7 @@
           :src="item.src"
         ></v-carousel-item>
 
-        <v-card outlined light class="white mx-12 px-12" style="margin-top: -240px;">
+        <v-card outlined light class="white mx-12 px-12" style="margin-bottom: 20px;">
           <v-container fluid fill-height>
             <v-row>
               <v-col cols="10">
@@ -298,8 +298,33 @@
         </v-row>
       </v-container>
 
-      <v-container>
+      <v-container fluid>
+        <v-row>
+          <v-col cols="6">
+            <v-img
+              class="mx-auto"
+              src="img/Home/logistics.png"
+            ></v-img>
+          </v-col>
+          <v-col cols="6">
+            <div class="mt-12 mb-4">
+              <span class="text-h4">Shipping to and from <span class="font-weight-black">anywhere</span></span>
+            </div>
 
+            <div class="text-h5 my-0">
+              <v-icon class="text-h4 mb-1">mdi-menu-right-outline</v-icon><span class="green--text">FTL Freight Shipping</span>
+            </div>
+            <div class="text-h5 my-0">
+              <v-icon class="text-h4 mb-1">mdi-menu-right-outline</v-icon><span class="green--text">LTL Freight Shipping</span>
+            </div>
+            <div class="text-h5 my-0">
+              <v-icon class="text-h4 mb-1">mdi-menu-right-outline</v-icon><span class="green--text">Documents & Parcels</span>
+            </div>
+            <div class="text-h5 my-0">
+              <v-icon class="text-h4 mb-1">mdi-menu-right-outline</v-icon><span class="green--text">International</span>
+            </div>
+          </v-col>
+        </v-row>
       </v-container>
 
       <v-container fluid class="success px-10">
@@ -319,6 +344,110 @@
             <v-btn success>
               Start Quoting
             </v-btn>
+          </v-col>
+        </v-row>
+      </v-container>
+
+      <v-container fluid class="grey darken-1 white--text">
+        <v-row>
+          <v-col cols="4" class="text-center">
+            <div class="d-inline-block">
+              <v-row>
+                <span color="black" text class="text-h4 font-weight-black">
+                  UNIEX COURIERS
+                </span>
+              </v-row>
+
+              <v-row class="mb-5">
+                <span color="black" text class="text-h6">
+                  Delivering across the globe
+                </span>
+              </v-row>
+
+              <v-row>
+                <v-icon medium color="green lighten-2">mdi-phone-in-talk</v-icon>
+                <span class="text-h5 ml-4">0800 123456789</span>
+              </v-row>
+              <v-row>
+                <v-icon medium color="green lighten-2">mdi-email</v-icon>
+                <span class="text-h5 ml-4">uniexcourier@gmail.com</span>
+              </v-row>
+              <v-row>
+                <v-icon medium color="green lighten-2">mdi-face-agent</v-icon>
+                <span class="text-h5 ml-4">Contact Us</span>
+              </v-row>
+              <v-row>
+                <v-btn icon href="#">
+                  <v-icon medium color="white" class="mx-1">mdi-twitter</v-icon>
+                </v-btn>
+                <v-btn icon href="#">
+                  <v-icon medium color="white" class="mx-1">mdi-facebook</v-icon>
+                </v-btn>
+                <v-btn icon href="#">
+                  <v-icon medium color="white" class="mx-1">mdi-instagram</v-icon>
+                </v-btn>
+                <v-btn icon href="#">
+                  <v-icon medium color="white" class="mx-1">mdi-linkedin</v-icon>
+                </v-btn>
+                <v-btn icon href="#">
+                  <v-icon medium color="white" class="mx-1">mdi-youtube</v-icon>
+                </v-btn>
+              </v-row>
+            </div>
+          </v-col>
+          <v-col cols="4" class="text-center">
+            <div class="d-inline-block">
+              <v-row class="mb-5">
+                <span color="black" text class="text-h4 font-weight-black">
+                  Shipping Resources
+                </span>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Resources</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Flight Glossary</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Frequently Asked Questions</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Terms of Use</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Privacy Policy</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Site Map</a>
+              </v-row>
+            </div>
+          </v-col>
+          <v-col cols="4" class="text-center">
+            <div class="d-inline-block">
+              <v-row class="mb-5">
+                <span color="black" text class="text-h4 font-weight-black">
+                  UNIEX COURIERS
+                </span>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">About Us</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Leadership</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Partnership</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Reviews</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Careers</a>
+              </v-row>
+              <v-row>
+                <a href="#" class="text-h5 light-green--text text--accent-1">Customer Support</a>
+              </v-row>
+            </div>
           </v-col>
         </v-row>
       </v-container>

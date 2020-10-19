@@ -2572,6 +2572,135 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -39618,7 +39747,7 @@ var render = function() {
                 "v-card",
                 {
                   staticClass: "white mx-12 px-12",
-                  staticStyle: { "margin-top": "-240px" },
+                  staticStyle: { "margin-bottom": "20px" },
                   attrs: { outlined: "", light: "" }
                 },
                 [
@@ -40161,7 +40290,97 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _c("v-container"),
+          _c(
+            "v-container",
+            { attrs: { fluid: "" } },
+            [
+              _c(
+                "v-row",
+                [
+                  _c(
+                    "v-col",
+                    { attrs: { cols: "6" } },
+                    [
+                      _c("v-img", {
+                        staticClass: "mx-auto",
+                        attrs: { src: "img/Home/logistics.png" }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("v-col", { attrs: { cols: "6" } }, [
+                    _c("div", { staticClass: "mt-12 mb-4" }, [
+                      _c("span", { staticClass: "text-h4" }, [
+                        _vm._v("Shipping to and from "),
+                        _c("span", { staticClass: "font-weight-black" }, [
+                          _vm._v("anywhere")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "text-h5 my-0" },
+                      [
+                        _c("v-icon", { staticClass: "text-h4 mb-1" }, [
+                          _vm._v("mdi-menu-right-outline")
+                        ]),
+                        _c("span", { staticClass: "green--text" }, [
+                          _vm._v("FTL Freight Shipping")
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "text-h5 my-0" },
+                      [
+                        _c("v-icon", { staticClass: "text-h4 mb-1" }, [
+                          _vm._v("mdi-menu-right-outline")
+                        ]),
+                        _c("span", { staticClass: "green--text" }, [
+                          _vm._v("LTL Freight Shipping")
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "text-h5 my-0" },
+                      [
+                        _c("v-icon", { staticClass: "text-h4 mb-1" }, [
+                          _vm._v("mdi-menu-right-outline")
+                        ]),
+                        _c("span", { staticClass: "green--text" }, [
+                          _vm._v("Documents & Parcels")
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      { staticClass: "text-h5 my-0" },
+                      [
+                        _c("v-icon", { staticClass: "text-h4 mb-1" }, [
+                          _vm._v("mdi-menu-right-outline")
+                        ]),
+                        _c("span", { staticClass: "green--text" }, [
+                          _vm._v("International")
+                        ])
+                      ],
+                      1
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
           _c(
             "v-container",
@@ -40199,6 +40418,411 @@ var render = function() {
                       ])
                     ],
                     1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-container",
+            { staticClass: "grey darken-1 white--text", attrs: { fluid: "" } },
+            [
+              _c(
+                "v-row",
+                [
+                  _c(
+                    "v-col",
+                    { staticClass: "text-center", attrs: { cols: "4" } },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "d-inline-block" },
+                        [
+                          _c("v-row", [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "text-h4 font-weight-black",
+                                attrs: { color: "black", text: "" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                UNIEX COURIERS\n              "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", { staticClass: "mb-5" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "text-h6",
+                                attrs: { color: "black", text: "" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                Delivering across the globe\n              "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "v-row",
+                            [
+                              _c(
+                                "v-icon",
+                                {
+                                  attrs: {
+                                    medium: "",
+                                    color: "green lighten-2"
+                                  }
+                                },
+                                [_vm._v("mdi-phone-in-talk")]
+                              ),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "text-h5 ml-4" }, [
+                                _vm._v("0800 123456789")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-row",
+                            [
+                              _c(
+                                "v-icon",
+                                {
+                                  attrs: {
+                                    medium: "",
+                                    color: "green lighten-2"
+                                  }
+                                },
+                                [_vm._v("mdi-email")]
+                              ),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "text-h5 ml-4" }, [
+                                _vm._v("uniexcourier@gmail.com")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-row",
+                            [
+                              _c(
+                                "v-icon",
+                                {
+                                  attrs: {
+                                    medium: "",
+                                    color: "green lighten-2"
+                                  }
+                                },
+                                [_vm._v("mdi-face-agent")]
+                              ),
+                              _vm._v(" "),
+                              _c("span", { staticClass: "text-h5 ml-4" }, [
+                                _vm._v("Contact Us")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-row",
+                            [
+                              _c(
+                                "v-btn",
+                                { attrs: { icon: "", href: "#" } },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "mx-1",
+                                      attrs: { medium: "", color: "white" }
+                                    },
+                                    [_vm._v("mdi-twitter")]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                { attrs: { icon: "", href: "#" } },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "mx-1",
+                                      attrs: { medium: "", color: "white" }
+                                    },
+                                    [_vm._v("mdi-facebook")]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                { attrs: { icon: "", href: "#" } },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "mx-1",
+                                      attrs: { medium: "", color: "white" }
+                                    },
+                                    [_vm._v("mdi-instagram")]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                { attrs: { icon: "", href: "#" } },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "mx-1",
+                                      attrs: { medium: "", color: "white" }
+                                    },
+                                    [_vm._v("mdi-linkedin")]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "v-btn",
+                                { attrs: { icon: "", href: "#" } },
+                                [
+                                  _c(
+                                    "v-icon",
+                                    {
+                                      staticClass: "mx-1",
+                                      attrs: { medium: "", color: "white" }
+                                    },
+                                    [_vm._v("mdi-youtube")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { staticClass: "text-center", attrs: { cols: "4" } },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "d-inline-block" },
+                        [
+                          _c("v-row", { staticClass: "mb-5" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "text-h4 font-weight-black",
+                                attrs: { color: "black", text: "" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                Shipping Resources\n              "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Resources")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Flight Glossary")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Frequently Asked Questions")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Terms of Use")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Privacy Policy")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Site Map")]
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-col",
+                    { staticClass: "text-center", attrs: { cols: "4" } },
+                    [
+                      _c(
+                        "div",
+                        { staticClass: "d-inline-block" },
+                        [
+                          _c("v-row", { staticClass: "mb-5" }, [
+                            _c(
+                              "span",
+                              {
+                                staticClass: "text-h4 font-weight-black",
+                                attrs: { color: "black", text: "" }
+                              },
+                              [
+                                _vm._v(
+                                  "\n                UNIEX COURIERS\n              "
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("About Us")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Leadership")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Partnership")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Reviews")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Careers")]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("v-row", [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "text-h5 light-green--text text--accent-1",
+                                attrs: { href: "#" }
+                              },
+                              [_vm._v("Customer Support")]
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ]
                   )
                 ],
                 1
